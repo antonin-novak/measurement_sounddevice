@@ -35,6 +35,11 @@ To use this script, follow these steps:
     sd.default.device = (1, 3)
     ```
     Here, 1 is the input device number and 3 is the output device number. These device numbers should correspond to the numbers of your desired input and output devices from the printed list. Adjust these numbers according to your specific setup.
+    
+    If you use the same audio card for input and output, put the same device number to both parameters, e.g.:
+     ```python
+    sd.default.device = (4, 4)
+    ```  
 
 4. The script will then generate a sine signal with a frequency of 500 Hz and a duration of 2 seconds.
 
